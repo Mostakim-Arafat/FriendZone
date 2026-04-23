@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+#statCard div{
+       background-color: white;
+       margin-right: 10px;
+       text-align: center;
+       border-radius: 10px;
+       height: 130px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       box-shadow: 1px 1px 1px 1px black;
+}
+
+#statCard div p{
+    
+    color: #64748B;
+}
+#statCard div h1{
+    margin-bottom: 4px;
+    font-size: x-large;
+    font-weight: bold;
+}
+#detail div{
+    background-color: white;
+    box-shadow: 0px 3px 6px 0px gray;
+}
+#card div button {
+    display: flex;
+    gap : 10px;
+    justify-content: center;
+    align-items: center;
+}
+#stateCarddetail div {
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#stateCarddetail div h1 {
+    font-weight: bold;
+    font-size: large;
+}
