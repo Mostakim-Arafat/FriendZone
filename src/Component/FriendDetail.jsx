@@ -69,9 +69,9 @@ const FriendDetail = ({ params }) => {
                         </div>
                         <h1>Connected every<span> {goal} Days</span> </h1>
                     </div>
-                    <div className='function'>
-                        <h1 cl>Quick check IN</h1>
-                        <div className='flex justify-around'>
+                    <div className='function p-3' style={{boxShadow : '0px 1px 6px 0px rgba(0, 0, 0, 0.08)'}}>
+                        <h1 className='font-bold mb-2'>Quick check IN</h1>
+                        <div className='grid grid-cols-3 gap-3'>
                             <button className='btn p-10' onClick={() =>  {const obj = {...Matched_id,mode : 'call'};setCollection([...collection,obj]);toast(`${name} is timelined`)} }>
                                 <img src={Call} />
                                 <span>Call</span>
