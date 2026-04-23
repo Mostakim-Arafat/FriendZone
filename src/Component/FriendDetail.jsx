@@ -23,7 +23,7 @@ const FriendDetail = ({ params }) => {
    
     return (
         <>
-            <div className='grid grid-cols-1 lg:grid-cols-4 container mx-auto gap-10 mt-20'>
+            <div className='grid grid-cols-1 lg:grid-cols-4 container mx-auto gap-10 mt-20 mb-5'>
 
                 <div className='leftSide space-y-10 col-span-1'>
                     <div className='card text-center'>
