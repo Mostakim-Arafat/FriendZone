@@ -16,7 +16,7 @@ const FriendDetail = ({ params }) => {
 
     const friend_id_no = useParams(params)
     const Matched_id = Data.find(i => i.id == friend_id_no.id)
-    const { name, picture, days_since_contact, status, tags, email, bio, goal, next_due_date } = Matched_id
+    const { name, days_since_contact, email, bio, goal, next_due_date } = Matched_id
     const { 
         collection,
         setCollection} = useContext(TimelineContexto)
@@ -46,7 +46,7 @@ const FriendDetail = ({ params }) => {
                         </button></div>
                     </div>
                 </div>
-                <div className='righSide col-span-3'>
+                <div className='righSide grid grid-rows-3 col-span-3'>
                     <div className='statsCard grid grid-cols-1 lg:grid-cols-3 gap-3' id='stateCarddetail'>
                         <div>
                             <h1>{days_since_contact}</h1>
