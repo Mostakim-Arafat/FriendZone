@@ -4,7 +4,7 @@ import Friends from '../../Component/Friends';
 import { Suspense } from 'react';
 
 const Home = () => {
-      const data = fetch('/public/Data.json').then(res => res.json())
+      const data = fetch('/Data.json').then(res => res.json())
     return (
         <div>
             <Banner></Banner>
