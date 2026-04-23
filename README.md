@@ -12,6 +12,6 @@
 ---
 # Feature
 
- -- Show friend list
- -- Call, text, Video Option
- -- Summary dashboard
+ --- Show friend list <br>
+ --- Call, text, Video Option<br>
+ --- Summary dashboard
